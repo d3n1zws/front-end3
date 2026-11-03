@@ -1,0 +1,31 @@
+
+#font
+{
+    font-family: 'Dancing Script';
+    font-size: 5em;
+}
+#text
+{
+    font-family: 'Raleway';
+    font-size: 1.5em;
+}
+#offer
+{
+    font-family: 'Quicksand';
+    font-size: 1em;
+}
+#date, #time
+{
+    font-family: 'IBM Plex Mono';
+    font-size: 1.10em;
+}
+#location
+{
+    font-family: 'Quicksand';
+    font-size: 0.9em;
+}
+#rtf
+{
+    font-family: "Indie Flower", italic;
+    font-size: 1.2em;
+}
