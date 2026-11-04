@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
 
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    
+
 </head>
 <body>
+
     <header>
-        <nav>
+        <nav style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #f8f8f8;">
 
             <div class="logo">
                 <a href="">
@@ -21,7 +23,7 @@
             </div>
 
             <div class="navlinks">
-                <ul>
+                <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Services</a></li>
@@ -30,21 +32,56 @@
                     <li>
 
                         <div class="dropdown-main-link">
-                            <a href=""">Dropdown</a>
+                            <a href="">Dropdown <i class="fa-solid fa-chevron-down"></i></a>
                         </div>
+
                         <div class="dropdown-content">
-                            <ul>
+                            <ul style="list-style: none; margin: 0; padding: 0;">
                                 <li><a href="">Dropdown 1</a></li>
                                 <li><a href="">Dropdown 2</a></li>
                                 <li><a href="">Dropdown 3</a></li>
+                                <li>
+                                    <div class="dropdown-sub-link">
+                                        <a href="">Dropdown 4 <i class="fa-solid fa-chevron-down"></i></a>
+                                    </div>
+                                    <div class="dropdown-sub-content">
+                                        <ul style="list-style: none; margin: 0; padding: 0;">
+                                            <li><a href="">Dropdown 4.1</a></li>
+                                            <li><a href="">Dropdown 4.2</a></li>
+                                            <li><a href="">Dropdown 4.3</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
+
                     </li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
 
+            <div class="social-pages">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
         </nav>
     </header>
+
+    <main>
+        <section id = "hero">
+            
+            <div class="hero-info">
+                <h2>Welcome to Our Website</h2>
+                <p>This is a simple example of a responsive navigation bar with a dropdown menu.</p>
+            </div>
+
+            <div class="hero-image">
+                <img src="../images/hero-img.png" alt="Scaffold website hero illustrati   on accompanying the welcome message">
+            </div>
+        </section>
+    </main>
 </body>
 </html>

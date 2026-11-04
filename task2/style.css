@@ -1,0 +1,11 @@
+#hero
+{
+    background-image: url('../images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.hero-image
+{
+    text-align: center;
+    margin-top: 20px;
+}
