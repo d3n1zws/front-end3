@@ -4,8 +4,26 @@
     background-size: cover;
     background-position: center;
 }
-.hero-image
+.hero-images
 {
-    text-align: center;
-    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+}
+.about-images
+{
+    height: 400px;
+    width: 100%;
+}   
+.about-info
+{
+    padding: 50px;
+}
+.about-links > a
+{
+    text-decoration: none;
+    color: #f2f2f2;
+    background-color: #009cea;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
 }
